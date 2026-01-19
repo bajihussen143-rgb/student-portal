@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #43cea2, #185a9d);
+  height: 100vh;
+}
+
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.signup-card {
+  background: #fff;
+  width: 380px;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+.signup-card h2 {
+  margin-bottom: 10px;
+}
+
+.signup-card p {
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.signup-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.signup-card input:focus {
+  border-color: #43cea2;
+}
+
+.signup-card button {
+  width: 100%;
+  padding: 12px;
+  background: #43cea2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup-card button:hover {
+  background: #36b392;
+}
+
+.login-text {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-text span {
+  color: #185a9d;
+  cursor: pointer;
+  font-weight: 500;
+}
